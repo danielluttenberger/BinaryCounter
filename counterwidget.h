@@ -18,9 +18,14 @@ public slots:
     void updateCounter();
 
 private:
-     int m_count;
+     int m_zähler;
+     int m_output;
      QTimer m_timer;
-     Gpio m_gpio;
+     Qpio = gpio;
+     Qlist <bool> m_states;
+     Qlist <bool> m_ledlights;
+     Qlist <bool> LED;
+
 
 };
 
